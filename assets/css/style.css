@@ -1,0 +1,59 @@
+body {
+	background-image: url("../images/mine.jpg");
+	padding: 2%;
+}
+
+#computer-crystals, #score {
+	font-weight: bolder;
+	font-size: 30px;
+}
+
+h1 {
+	color: orangered;
+	font-size: 46px;
+	font-weight: bolder;
+	padding-bottom: 1em;
+}
+
+.greenyellow {
+	color: greenyellow;
+}
+
+.cyan {
+	color: cyan;
+}
+
+.crystal {
+	float: left;
+	width: 80px;
+	height: 100px;
+	border-radius: 25px;
+	padding: 10px;
+	transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+p {
+	background-color: lightblue;
+	font-weight: bolder;
+	clear: left;
+	width: 385px;
+	padding: 5px;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+#startover {
+	margin-top: 10px;
+	font-weight: bolder;
+	font-size: 14px;
+}
+
+#win {
+	background-color: lightgreen;
+}
+
+#loss {
+	background-color: pink;
+}
+

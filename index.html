@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collectors</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+	<h1>*<em class="greenyellow">Crystal</em>*<em class="cyan">Collectors</em>*</h1>
+
+<div>
+	<p>Collect <span id="computer-crystals"></span> crystals to win...</p>
+</div>
+
+<div id="game">
+	<ul>
+		<li><img src="assets/images/amber.png" alt="amber crystal" id="amber" class="crystal"></li>
+		<li><img src="assets/images/diamond.png" alt="diamond crystal" id="diamond" class="crystal"></li>
+		<li><img src="assets/images/emerald.png" alt="emerald crystal" id="emerald" class="crystal"></li>
+		<li><img src="assets/images/sapphire.png" alt="sapphire crystal" id="sapphire" class="crystal"></li>
+	</ul>
+</div>
+
+<div id="score-display">
+	<div>
+		<p>Crystals collected: <span id="score">0</span></p>
+	</div>
+	<button id=startover>Click to start over</button>
+	<div>
+		<p id="win">Wins: <span id="wins">0</span></p>
+	</div>
+	<div>
+		<p id="loss">Losses: <span id="losses">0</span></p>
+	</div>
+
+</div>
+
+
+
+ <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
